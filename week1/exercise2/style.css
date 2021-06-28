@@ -32,6 +32,11 @@ p {
   box-shadow: 3px 3px #999;
 }
 
+/* Use this later*/
+#meship {
+  color: #333;
+}
+
 #treasure {
   height: 200px;
   width: 320px;
@@ -42,4 +47,9 @@ p {
   padding: 10px;
   padding-bottom: 30px;
   box-shadow: 3px 3px #999;
+}
+
+/* Use this later*/
+#mebooty {
+  color: #333;
 }
