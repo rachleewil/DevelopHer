@@ -1,0 +1,135 @@
+/* Starts off for mobile size*/
+body {
+  font-family: "Open Sans";
+  font-size: 12px;
+  background-color: #f9fafc;
+  color: #000000;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #69696a;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 15px / 20px;
+}
+
+#hireus {
+  height: 30px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+#paragraph {
+  color: #69696a;
+  border-left: 2px solid #555;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+#cta {
+  height: 30px;
+  width: 100%;
+}
+
+#footertitle {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: rgba(247, 193, 162, 0.7);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.links a {
+  margin-left: 20px;
+}
+
+/* This is for desktop size*/
+@media only screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #navtitle {
+    flex-grow: 10;
+  }
+
+  .navigation {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navigation a {
+    margin-right: 20px;
+  }
+
+  #hireus {
+    width: 60px;
+  }
+
+  #section1 {
+    margin-top: 120px;
+  }
+
+  #paragraph {
+    width: 50%;
+  }
+
+  #cta {
+    width: 50%;
+  }
+
+  #dot1 {
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    right: 150px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #dot2 {
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: 90px;
+    height: 100px;
+    width: 100px;
+  }
+
+  #dot3 {
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+    right: 80px;
+    height: 130px;
+    width: 130px;
+  }
+}
