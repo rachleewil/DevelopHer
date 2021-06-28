@@ -1,0 +1,45 @@
+body {
+  font-family: "Nanum Brush Script", cursive;
+  background-color: #ccc;
+}
+
+section {
+  background-color: #fff;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Seaweed Script", cursive;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#ship {
+  height: 200px;
+  width: 320px;
+  position: relative;
+  bottom: 330px;
+  left: 400px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-shadow: 3px 3px #999;
+}
+
+#treasure {
+  height: 200px;
+  width: 320px;
+  position: relative;
+  bottom: 50px;
+  right: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-shadow: 3px 3px #999;
+}
