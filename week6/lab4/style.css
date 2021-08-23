@@ -1,0 +1,51 @@
+.penny {
+    background-color: #A57A55;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    height: 60px;
+    width: 60px;
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.nickle {
+    background-color: #d3dde4;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    height: 80px;
+    width: 80px;
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+} 
+
+.dime {
+    background-color: #d3dde4;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.quarter {
+    background-color: #d3dde4;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    height: 100px;
+    width: 100px;
+    font-size: 14px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+} 
